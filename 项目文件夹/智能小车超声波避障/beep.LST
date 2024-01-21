@@ -1,0 +1,33 @@
+C51 COMPILER V9.54   BEEP                                                                  10/10/2023 15:47:27 PAGE 1   
+
+
+C51 COMPILER V9.54, COMPILATION OF MODULE BEEP
+OBJECT MODULE PLACED IN beep.OBJ
+COMPILER INVOKED BY: D:\MyProgramFile\Keil_C51\C51\BIN\C51.EXE beep.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND TABS(2
+                    -)
+
+line level    source
+
+   1          //#include "QXA51.h"
+   2          #include "Delay.h"
+   3          
+   4          
+   5          void Buzzing(unsigned int t_ms){
+   6   1      
+   7   1        DelayMs(t_ms);
+   8   1      
+   9   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =      3    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
